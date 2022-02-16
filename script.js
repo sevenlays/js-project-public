@@ -1,1 +1,1 @@
-alert('JS learning here 22');
+alert('JS learning here alert');
