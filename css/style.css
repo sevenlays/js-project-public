@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 25px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.style {
+    background: yellow;
+    height: 50px;
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+}   
