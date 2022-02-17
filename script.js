@@ -1,2 +1,2 @@
-alert('JS learning here alert');
 console.log('hi');
+console.log('hello again');
