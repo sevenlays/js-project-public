@@ -1,22 +1,71 @@
-* {
+html, body {
     margin: 0;
-    padding: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-    font-size: 25px;
+    box-sizing: border-box;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.container {
+    width: 80%;
+    min-width: 1200px;
+    margin: 10px auto;
+    padding: 5px;
+    background: bisque;
 }
 
-.style {
+.header {
+    min-height: 100px;
+    background: green;
+    margin: 1%;
+}
+
+.left {
+    width: 30%;
     background: yellow;
-    height: 50px;
-    width: 300px;
-    padding: 20px;
-    margin: 0 auto;
-}   
+    min-height: 190px;
+    margin: 1%;
+    float: left;
+}
+
+.right {
+    width: 66%;
+    background: orange;
+    min-height: 190px;
+    margin: 1%;
+    float: left;
+}
+
+.wrap::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        background: pink;
+        width: 90%;
+    }
+
+    .left {
+        width: 48%;
+    }
+
+    .right {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .container {
+        background: red;
+        width: 95%;
+    }
+
+    .left {
+        width: 48%;
+    }
+
+    .right {
+        width: 48%;
+    }
+}
