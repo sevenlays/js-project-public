@@ -1,0 +1,45 @@
+
+
+.wrapper {
+    width: 90%;
+    overflow: hidden;
+    min-height: 90%;
+    padding: 50px;
+}
+
+.block {
+
+}
+
+.block_column_1 {
+    order: 3;
+}
+.block_column_2 {
+    order: 2;
+}
+.block_column_3 {
+    order: 1;
+}
+
+.block_row {
+    display: flex;
+
+
+    border: 20px solid #ece89d;
+    margin: 0px 0px 20px 0px;
+}
+
+.block_column {
+    border: 20px solid #5e5373;
+    flex-basis: 500px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.block_item {
+    background-color: #18b5a4;
+    padding: 50px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+}
