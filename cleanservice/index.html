@@ -13,28 +13,29 @@
     <div class="wrapper">
         <header class="header">
             <div class="header_container _container">
-                <img src="./images/House_png-removebg-preview 1.svg" alt="Home">
-                <a href="" class="header__logo">
-                    SB OÜ
-                </a>
-                <nav class="header__menu menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="" class="menu__link">Главная</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="" class="menu__link">Услуги</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="" class="menu__link">Цены</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="" class="menu__link">Контакты</a>
-                        </li>
-                    </ul>
-                </nav>
+                <div href="" class="header__logo"><img src="./images/House_png-removebg-preview 1.svg" alt="Home">SB OÜ</div>
+                <div class="header__menu menu">
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li><a data-goto=".header" href="#" class="menu__link">Главная</a></li>
+                                <li><a data-goto="" href="#" class="menu__link sub-list">Услуги</a>
+                                    <span class="menu__arrow"></span>
+                                    <ul class="menu__sub-list">
+                                        <li><a data-goto="._standart" href="#" class="menu__sub-link">Стандартаня уборка</a></li>
+                                        <li><a data-goto="._general" href="#" class="menu__sub-link">Генеральная уборка</a></li>
+                                        <li><a data-goto="._supporting-clean" href="#" class="menu__sub-link">Поддерживающая уборка</a></li>
+                                        <li><a data-goto="._additional" href="#" class="menu__sub-link">Дополнительные услуги</a></li>
+                                    </ul>
+                                </li>
+                                <li><a data-goto="._prices" href="#" class="menu__link">Цены</a></li>
+                            <li><a data-goto="._contacts" href="#" class="menu__link">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-
         </header>
 
         <main class="page">
@@ -58,7 +59,7 @@
             <section class="page_services services">
                 <div class="services__conatainer _container">
                     <div class="services__body">
-                         <a href="" class="services__column">
+                         <div class="services__column">
                             <div class="services__item item-service">
                                 <div class="item-service__icon">
                                    <img src="./images/spray.png" alt="spray">
@@ -70,8 +71,8 @@
                                    Сухая и влажная уборка всех <span class="text_bold_red"> внешних </span>  поверхностей и фасадов (в пределах 1,80м)
                                 </div>
                             </div>
-                        </a>
-                        <a href="" class="services__column">
+                        </div>
+                        <div class="services__column">
                             <div class="services__item item-service">
                                 <div class="item-service__icon">
                                    <img src="./images/labor.png" alt="labor">
@@ -83,8 +84,8 @@
                                   Сухая и влажная уборка комнат, кухонь, ванных комнат, туалетов и коридоров.
                                 </div>
                             </div>
-                        </a>
-                        <a href="" class="services__column">
+                        </div>
+                        <div class="services__column">
                             <div class="services__item item-service item-service_green">
                                 <div class="item-service__icon">
                                    <img src="./images/brush.png" alt="brush">
@@ -97,7 +98,7 @@
                                    Профессиональная химчистка диванов, матрасов, ковров.
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
 
@@ -105,11 +106,11 @@
             <section class="page_supporting-cleaning supporting-cleaning ">
                 <div class="supporting-cleaning__container _container">
                     <div class="supporting-cleaning__header header-block">
-                        <h2 class="header_block__title">ЦЕНЫ И УСЛУГИ</h2>
+                        <h2 class="header_block__title _prices">ЦЕНЫ И УСЛУГИ</h2>
                         <div class="header_block__sub-title">Все цены обговариваются и зависят от объекта.</div>
                     </div>
                 <div class="supporting-cleaning_body">
-                    <div class="supporting-cleaning_column">
+                    <div class="supporting-cleaning_column _general">
                         <div class="supporting-cleaning_item">
                             <div class="supporting-cleaning_icon">
                                 <img src="./images/cleaning_house_covid-19_virus_pandemic_icon.png" alt="">
@@ -164,7 +165,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="supporting-cleaning_column">
+                    <div class="supporting-cleaning_column _standart">
                         <div class="supporting-cleaning_item">
                             <div class="supporting-cleaning_icon">
                                 <img src="./images/alcohol_antiseptic_cleaning_cleanser_first_icon.png" alt="">
@@ -184,7 +185,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="supporting-cleaning_column">
+                    <div class="supporting-cleaning_column _additional">
                         <div class="supporting-cleaning_item">
                             <div class="supporting-cleaning_icon">
                                 <img src="./images/cleaning_door_hygiene_knob_object_icon.png" alt="">
@@ -204,7 +205,7 @@
                                        Поддерживающая уборка: от <span class="text_bold_span"> 0.80€/м2 </span> </div>
                         </div>
                     </div>
-                    <div class="supporting-cleaning_column">
+                    <div class="supporting-cleaning_column _supporting-clean">
                         <div class="supporting-cleaning_item">
                             <div class="supporting-cleaning_icon">
                                 <img src="./images/cleaning_hygiene_soap_wash_washing_icon.png" alt="">
@@ -219,7 +220,7 @@
                 </div>
             </div>
             </section>
-            <section class="page__contacts contacts">
+            <section class="page__contacts contacts _contacts">
                 <div class="contacts__container _container">
                     <div class="contacts__header header-block">
                         <h2 class="header_block__title">КОНТАКТЫ</h2>
@@ -254,6 +255,10 @@
                     <div class="footer__social">
                         <a href="https://www.facebook.com/sanbetta.cleaning/" target="_blank"> <img class="footer_icon" src="./images/facebook logo.png" alt="facebook"> </a>
                         <a href="https://www.instagram.com/sanbetta_puhastus/?utm_medium=copy_link" target="_blank"> <img class="footer_icon" src="./images/instagram_icon.png" alt="Instagram"> </a>
+                    </div>
+                    <div class="footer_number-mail">
+                        <a class="footer__link" href="tel:37256265199">+372-56-265-199</a>
+                        <a class="footer__link" href="mailto:sanbetta2021@gmail.com">sanbetta2021@gmail.com</a>
                     </div>
                 </div>
             </div>
