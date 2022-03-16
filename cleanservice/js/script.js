@@ -8,7 +8,7 @@ const isMobile = {
   BlackBerry: function () {
     return navigator.userAgent.match (/BlackBerry/i);
   },
-  IOS: function () {
+  iOS: function () {
     return navigator.userAgent.match (/iPhone|iPad|iPod/i);
   },
   Opera: function () {
@@ -21,7 +21,7 @@ const isMobile = {
     return (
       isMobile.Android() ||
       isMobile.BlackBerry() ||
-      isMobile.IOS() ||
+      isMobile.iOS() ||
       isMobile.Opera() ||
       isMobile.Windows());
   }
@@ -118,7 +118,7 @@ const menuLinks = document.querySelectorAll ('.menu__link[data-goto], .menu__sub
 
 if(menuLinks.length > 0) {
   menuLinks.forEach(menuLink => {
-    menuLink.addEventListener ("click", onMenuLinkClick);
+    menuLink.addEventListener ("touchend", onMenuLinkClick);
   });
 
         function onMenuLinkClick (e) {

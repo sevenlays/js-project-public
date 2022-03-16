@@ -84,10 +84,6 @@ body._lock {
     z-index: 10;
 }
 
-
-.burger__icon {
-
-}
 .header_container {
     display: flex;
     align-items: center;
@@ -343,18 +339,10 @@ body._touch .menu__list > li._active .menu__arrow {
 .page {
     flex: 1 1 auto;
 }
-
-.page__main-block {
-}
-
 .page_services {
     position: relative;
     z-index: 2;
     margin: -111px 0px 0px 0px;
-}
-.page_supporting-cleaning {
-}
-.page__contacts {
 }
 /* -----------------HEADER_BLOCK--------------------------- */
 .header-block {
@@ -493,15 +481,6 @@ body._touch .menu__list > li._active .menu__arrow {
 /* ----------------------------------------------- */
 
 /* ----------------------ТРИ БЛОКА------------------- */
-
-.services {
-}
-.services__conatainer {
-}
-.services__body {
-
-}
-
 @media  (min-width: 670px) {
     .services__body {
         display: flex;
@@ -509,11 +488,9 @@ body._touch .menu__list > li._active .menu__arrow {
         margin: 0px -15px;
     }
 } 
-    
 .services__column {
     flex: 0 1 33.333%;
     margin: 0px 0px 30px 0px;
-    /* display: block; */
     color:rgb(0, 0, 0);
 }
 @media  (min-width: 670px) {
@@ -532,7 +509,6 @@ body._touch .menu__list > li._active .menu__arrow {
         flex: 0 1 100%;
     }   
 }
-
 .services__item {
     height: 100%;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
@@ -544,9 +520,6 @@ body._touch .menu__list > li._active .menu__arrow {
         padding: 25px;
     }
 }
-
-.item-service {}
-
 .item-service_green {
     background-color: rgba(16, 196, 0, 0.950);
     box-shadow: 0px 13px 19px rgba(16, 196, 0, 0.750);
@@ -583,8 +556,6 @@ body._touch .menu__list > li._active .menu__arrow {
     padding: 80px 0px;
     background: #fafafa;
 }
-.supporting-cleaning__container {
-}
 .supporting-cleaning__header {
     margin: 0px 0px 50px 0px;
 }
@@ -608,8 +579,6 @@ body._touch .menu__list > li._active .menu__arrow {
 }
 .supporting-cleaning_item > *:not(:last-child) {
     margin: 0px 0px 10px 0px;
-}
-.supporting-cleaning_icon {
 }
 .supporting-cleaning_value {
     font-size: 35px;
@@ -647,8 +616,6 @@ body._touch .menu__list > li._active .menu__arrow {
 /* ----------------------CONTACTS--------------------- */
 .contacts {
     padding: 80px 0px 135px 0px;
-}
-.contacts__container {
 }
 .contacts__header {
     margin: 0px 0px 80px 0px;
@@ -705,17 +672,7 @@ body._touch .menu__list > li._active .menu__arrow {
     background: rgba(255, 72, 0, 0.9);
     color: #fff;
 }
-
-.number {
-}
-.mail {
-}
-.location {
-}
 /* ------------------FOOTER-------------------------- */
-.footer {
-
-}
 .footer_top {
     background: #17213c;
     box-shadow: 0px 13px 19px rgb(16 156 50 / 75%);
