@@ -11,17 +11,17 @@
 </head>
 <body>
     <div class="wrapper">
-        <header class="header">
+        <header class="header _header">
             <div class="header_container _container">
-                <div href="" class="header__logo"><img src="./images/House_png-removebg-preview 1.svg" alt="Home">SB OÜ</div>
+                <div href="logo" class="header__logo"><img src="./images/House_png-removebg-preview 1.svg" alt="Home">SB OÜ</div>
                 <div class="header__menu menu">
                     <div class="menu__icon">
                         <span></span>
                     </div>
                     <nav class="menu__body">
                         <ul class="menu__list">
-                            <li><a data-goto=".header" href="#" class="menu__link">Главная</a></li>
-                                <li><a data-goto="" href="#" class="menu__link sub-list">Услуги</a>
+                            <li><a data-goto="._header" href="#" class="menu__link">Главная</a></li>
+                                <li><a data-goto="._service" href="#" class="menu__link sub-list">Услуги</a>
                                     <span class="menu__arrow"></span>
                                     <ul class="menu__sub-list">
                                         <li><a data-goto="._standart" href="#" class="menu__sub-link">Стандартаня уборка</a></li>
@@ -106,7 +106,7 @@
             <section class="page_supporting-cleaning supporting-cleaning ">
                 <div class="supporting-cleaning__container _container">
                     <div class="supporting-cleaning__header header-block">
-                        <h2 class="header_block__title _prices">ЦЕНЫ И УСЛУГИ</h2>
+                        <h2 class="header_block__title _prices _service">ЦЕНЫ И УСЛУГИ</h2>
                         <div class="header_block__sub-title">Все цены обговариваются и зависят от объекта.</div>
                     </div>
                 <div class="supporting-cleaning_body">
@@ -170,10 +170,10 @@
                             <div class="supporting-cleaning_icon">
                                 <img src="./images/alcohol_antiseptic_cleaning_cleanser_first_icon.png" alt="">
                             </div>
-                            <div class="supporting-cleaning_value">Стандартаня уборка</div>
-                            <div class="supporting-cleaning_text">До 100м2: от <span class="
-                                price_text_bold"> 1.20€/м2 </span> <br> Начиная с 100м2: от <span class="
-                                price_text_bold"> 0.8€/м2 </span>
+                            <div class="supporting-cleaning_value">Стандартная уборка</div>
+                            <div class="supporting-cleaning_text">До 100м²: от <span class="
+                                price_text_bold"> 1.20€/м² </span> <br> Начиная с 100м²: от <span class="
+                                price_text_bold"> 0.8€/м² </span>
                                 <ul class="ul_list">
                                     <li>Сухая и влажная уборка всех <span class="text_bold_red"> внешних </span> поверхностей и фасадов (в пределах 1.80м)</li>
                                     <li>Удаление пыли и загрязнений с мебели, дверей, радиаторов.</li>
@@ -191,8 +191,8 @@
                                 <img src="./images/cleaning_door_hygiene_knob_object_icon.png" alt="">
                             </div>
                             <div class="supporting-cleaning_value">Дополнительные услуги</div>
-                            <div class="supporting-cleaning_text"> <span class="text_bold_span">Уборка после ремонта</span> <br> До 100м2: от <span class="
-                                price_text_bold"> 3€/м2 </span> <br> Начиная с 100м2: от <span class="text_bold_span"> 2€/м2 </span> <br>
+                            <div class="supporting-cleaning_text"> <span class="text_bold_span">Уборка после ремонта</span> <br> До 100м²: от <span class="
+                                price_text_bold"> 3€/м² </span> <br> Начиная с 100м²: от <span class="text_bold_span"> 2€/м² </span> <br>
                                  <span class="text_bold_span">Химчистка</span> <br>
                                   Диван: от <span class="text_bold_span">20€/шт. </span>  <br>
                                    Матрас: от <span class="text_bold_span"> 20€/шт. </span> <br>
@@ -202,7 +202,7 @@
                                     Стандартное окно: от <span class="text_bold_span"> 12€/шт.</span> <br>
                                      Большие окна: <br> По договоренности <br>
                                       <span class="text_bold_span">Уборка офисов</span> <br>
-                                       Поддерживающая уборка: от <span class="text_bold_span"> 0.80€/м2 </span> </div>
+                                       Поддерживающая уборка: от <span class="text_bold_span"> 0.80€/м² </span> </div>
                         </div>
                     </div>
                     <div class="supporting-cleaning_column _supporting-clean">
@@ -211,7 +211,7 @@
                                 <img src="./images/cleaning_hygiene_soap_wash_washing_icon.png" alt="">
                             </div>
                             <div class="supporting-cleaning_value">Поддерживающая уборка</div>
-                            <div class="supporting-cleaning_text">До 100м2 <br>
+                            <div class="supporting-cleaning_text">До 100м² <br>
                                 Раз в неделю: от <span class="text_bold_span">40€ - 80€</span> <br>
                                 Раз в две недели: от <span class="text_bold_span"> 50€ - 100€ </span> <br>
                                  (По договоренности)</div>
@@ -224,7 +224,6 @@
                 <div class="contacts__container _container">
                     <div class="contacts__header header-block">
                         <h2 class="header_block__title">КОНТАКТЫ</h2>
-                        <div class="header_block__sub-title">Что-то про контакты, возможно удалю.</div>
                     </div>
                 <div class="contacts__items">
                     <div class="contact_item item-contact">
@@ -238,12 +237,6 @@
                             <img src="./images/mail.png" alt="mail">
                         </div>
                         <a href="mailto:sanbetta2021@gmail.com" class="item-contact_button mail" target="_blank">Наша почта</a>
-                    </div>
-                    <div class="contact_item item-contact">
-                        <div class="item-contact__icon">
-                            <img src="./images/navigation.png" alt="location">
-                        </div>
-                        <a href="https://www.google.com/maps/place/Paekaare+46,+13611+Tallinn,+%D0%95%D1%81%D1%82%D0%BE%D0%BD%D1%96%D1%8F/@59.4364398,24.8274652,17z/data=!4m5!3m4!1s0x4692ecb0a074302b:0xf54193865ec72d85!8m2!3d59.4363962!4d24.8269824" class="item-contact_button location" target="_blank">Адресс</a>
                     </div>
                 </div>
                 </div>
